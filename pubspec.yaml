@@ -1,0 +1,21 @@
+name: video_editor_gold
+description: "A new Flutter package project."
+version: 0.0.1
+homepage: 
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.8.0 # update to `1.8.1` causes #79
+  path_provider: ^2.0.12
+  transparent_image: ^2.0.1 # show fade-in placeholder in thumbnails generation
+  video_player: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
